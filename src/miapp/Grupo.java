@@ -1,7 +1,7 @@
 package miapp;
 
 /**
- *
+ * Añade grupos para clasificar contactos
  * @author agomezcastro
  */
 public class Grupo {

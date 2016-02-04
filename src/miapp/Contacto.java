@@ -1,7 +1,7 @@
 package miapp;
 
 /**
- *
+ * datos de personas
  * @author agomezcastro
  */
 public class Contacto {

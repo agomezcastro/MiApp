@@ -1,9 +1,8 @@
 package miapp;
 
 import javax.swing.JOptionPane;
-
 /**
- *
+ * Añade y visualiza los contactos
  * @author agomezcastro
  */
 public class Libreta {
@@ -12,6 +11,20 @@ public class Libreta {
     private String dni;
     private Contacto arrayContactos[] = new Contacto[10];
     private Grupo arrayGrupo[]= new Grupo[10];
+
+    
+    public Libreta() {
+    }
+    
+    /**
+     * 
+     * @param nombre añade un nombre del contacto
+     * @param dni identificacion del contacto
+     */
+    public Libreta(String nombre, String dni) {
+        this.nombre = nombre;
+        this.dni = dni;
+    }
 
     public Grupo[] getArrayGrupo() {
         return arrayGrupo;
@@ -50,6 +63,11 @@ public class Libreta {
         dni = JOptionPane.showInputDialog("Introduzca el DNI del contacto:");
         return nombre;
     }
+    
+    /**
+     * 
+     * @return indica si hay hueco o no
+     */
 
     public int cualLibre() {
         int i;

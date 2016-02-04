@@ -1,14 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package miapp;
 
 import javax.swing.JOptionPane;
 
 /**
- *
+ * Añade un propietario para la libreta y ser administrador de esta
  * @author agomezcastro
  */
 public class Propietario {
